@@ -46,6 +46,9 @@ p {
     font-weight: bolder;
     font-style: normal; 
     font-size: 30px;
+    text-indent: 50px;
+    margin-top: .5em ;
+    margin-bottom: .5em ;
 }
 
 
@@ -136,6 +139,33 @@ justify-content: space-around;
             
             #choice4:active{
                 background-color: rgb(200, 255, 0);
+                 } 
+        
+            #start1 {
+                color: green;
+                background-color: rgb(200, 255, 0);
+                font-family: 'Times New Roman', serif;
+                font-weight: bolder;
+                font-style: italic; 
+                font-size: 30px;
+                border-radius:1em;
+                background: transparent;
+                padding: 5px 10px 15px 20px;
+                margin-bottom: 20px;
                  }
+                    
+                    #start1:active {
+                        background-color: rgb(200, 255, 0);
+                         }
 
+            #mute{
+                font-family: 'Times New Roman', serif;
+                font-weight: bolder;
+                font-style: normal;
+                font-size: 20px;
+                margin-top: 20px;
+                color: purple;
+                         }
+
+                              
                  
