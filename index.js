@@ -57,6 +57,15 @@ let goodlinks = [
     "/qpositive/positive10.html",
 ];
 
+let endings = [
+    "/hapending/youwin.html",
+    "/unhapending/gameover.html",
+];
+
+const randend = Math.floor(Math.random() * endings.length);
+
+console.log(randend, endings [randend]);
+
 
 const randomgood = Math.floor(Math.random() * goodlinks.length);
 
@@ -97,6 +106,12 @@ butset4.addEventListener("click", gotourl);
 function gotourl() {
     window.location.assign(mainlinks[rando]);
 }
+
+
+
+
+
+
 stbtton.addEventListener("click", hott);
 function hott() {
     let beat = new Audio/Sound/start.wav;
@@ -104,7 +119,16 @@ function hott() {
 }
 
 
+    btnarray.addEventListener('click', trackButtonClick);
+function trackButtonClick() {
+    let clickcount = 0;
+    let button = btnarray; 
+    clickcount++;
+    if (clickcount> 7) {
+        window.location.assign(endings[randend]);
 
+    }
+}
 
 
 
