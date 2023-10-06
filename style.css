@@ -167,5 +167,10 @@ justify-content: space-around;
                 color: purple;
                          }
 
-                              
+                         #pageneg{
+                            max-width: 25%;
+                            max-height: 25%
+                            width 300px; 
+                            height: 150x; 
+                                     }
                  
